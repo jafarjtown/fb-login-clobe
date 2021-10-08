@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(235, 227, 208);
+    display: flex;
+    justify-content: center;
+}
+body > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left_side{
+    width: 60%;
+    padding-left: 90px;
+    font-size: 2em;
+}
+.right_side{
+    width: 40%;
+    padding-right: 80px;
+
+}
+.left_side > h1{
+    color: rgb(46, 94, 238);
+    align-self: flex-start;
+}
+.form{
+    /* height: 250px; */
+    width: 400px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px gray;
+    display: flex;
+    flex-direction: column;
+}
+.form_input{
+    border: .4px solid rgb(136, 136, 136);
+    margin: 10px 5px;
+    display: flex;
+}
+.form_input > input{
+    padding: 10px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+button{
+    padding: 8px;
+    margin: 10px 5px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn_login{
+    background-color: rgb(46, 94, 238);
+    color: white;
+}
+a{
+    text-decoration: none;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.btn_create{
+    background-color: rgb(35, 250, 7);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right_side > p{
+    text-align: center;
+    padding: 5px 0;
+}
+footer, header{
+    display: none;
+}
+@media screen and (max-device-width: 620px) and (orientation: portrait){
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start
+    }
+    header{
+        display: flex;
+        background-color: rgb(46, 94, 238);
+        color: white;
+        width: 100%;
+        padding: 5px;
+    }
+    footer{
+        background-color: rgb(37, 37, 37);
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    footer > ul{
+        list-style-type: none;
+    }
+    ul > li{
+        color: rgb(46, 94, 238);
+    }
+    .white{
+        color: white;
+    }
+    .left_side{
+        display: none;
+    }
+    .right_side{
+        width: 100%;
+        padding: 5px;
+        justify-content: flex-start;
+    }
+    .btn_create{
+        width: fit-content;
+        margin: auto;
+        color: white;
+    }
+    .form{
+        width: 100%;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    input{
+        background-color: white;
+    }
+    hr{
+        margin-bottom: 10px;
+    }
+    .right_side > p{
+        display: none;
+    }
+}
