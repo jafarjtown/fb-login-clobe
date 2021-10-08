@@ -9,15 +9,15 @@ body{
     height: 100vh;
     background-color: rgb(235, 227, 208);
     display: flex;
+justify-content: space-evenly;
 }
 body > div{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .left_side{
-    width: 60%;
+    width: 50%;
     padding-left: 50px;
     font-size: 1.7em;
 }
