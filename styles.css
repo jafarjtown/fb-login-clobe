@@ -9,7 +9,6 @@ body{
     height: 100vh;
     background-color: rgb(235, 227, 208);
     display: flex;
-    justify-content: center;
 }
 body > div{
     display: flex;
@@ -19,12 +18,12 @@ body > div{
 }
 .left_side{
     width: 60%;
-    padding-left: 90px;
-    font-size: 2em;
+    padding-left: 50px;
+    font-size: 1.7em;
 }
 .right_side{
     width: 40%;
-    padding-right: 80px;
+    padding-right: 50px;
 
 }
 .left_side > h1{
