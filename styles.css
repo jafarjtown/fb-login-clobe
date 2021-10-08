@@ -15,6 +15,7 @@ body > div{
     display: flex;
     flex-direction: column;
     align-items: center;
+padding-top: 50px;
 }
 .left_side{
     width: 50%;
