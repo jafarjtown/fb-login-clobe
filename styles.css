@@ -80,7 +80,7 @@ a{
 footer, header{
     display: none;
 }
-@media screen and (max-device-width: 620px) and (orientation: portrait){
+@media screen and (max-device-width: 620px){
     *{
         box-sizing: border-box;
     }
